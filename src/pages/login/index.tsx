@@ -25,10 +25,8 @@ export default function Login(){
   // }
 
   const handleSubmitTeste: SubmitHandler<FieldValues> = useCallback((data: any, event: any) =>{
-    // console.log("userData", userData);
     console.log("submit Data", data);
     dispatch(changeUser(data))
-    // console.log("submit Data", data.value);
     // console.log("submit Data", data.name);
     // console.log("submit Data", data.nivel);
     navigate("Home");

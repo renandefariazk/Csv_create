@@ -4,6 +4,8 @@ npm i --save-dev @types/styled-components
 npm i react-router-dom
 npm install @reduxjs/toolkit
 npm install react-redux
+npm i redux-persist
+npm i --save-dev @types/redux-persist  // npm uninstall @types/redux-persist
 npm i file-saver
 npm i --save-dev @types/file-saver
 npm install react-hook-form
